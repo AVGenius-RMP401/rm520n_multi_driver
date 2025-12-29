@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    gps_port: "/dev/gps"
+    gps_baudrate: 115200
+    at_port: "/dev/rm520n"
+    at_baudrate: 115200
+    polling_interval_ms: 500
+    gps_interval_ms: 1000
+
+    publish_topics:
+      gps_topic: "gps_fix"
+      status_topic: "network_status"
